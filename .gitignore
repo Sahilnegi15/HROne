@@ -1,0 +1,39 @@
+
+.gitignore · GITIGNORE
+# Secrets and local config (never commit)
+.env
+.env.*
+!.env.example
+ 
+# Python virtual environments
+.venv/
+venv/
+env/
+ 
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+ 
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+ 
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+ 
+# OS files
+.DS_Store
+Thumbs.db
+ 
+# Logs
+*.log
+ 
+Claude finished the response
